@@ -3,7 +3,7 @@ using UnityEngine;
 public class ConstantManager
 {
     // System
-    public static string CurrentProjectVersion = "0.0.0";
+    public static string CurrentProjectVersion = "1.0.0";
     public static string MinimalGameVersionSaveFileRequired = "0.0.0";
     public static int MaxNumberOfResolutionDisplayed = 5;
     public static string SettingsFileName = "Settings.dat";

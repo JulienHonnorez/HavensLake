@@ -10,20 +10,33 @@ public class Backpack : MonoBehaviour
     [SerializeField] private GameObject Container2;
     [SerializeField] private GameObject Container3;
 
-    private List<GameObject> Items = new List<GameObject>();
+    private void OnDisable()
+    {
+        ResetMe();
+    }
 
     private void OnEnable()
     {
-        Reset();
         Setup();
     }
 
-    private void Reset()
+    private void ResetMe()
     {
-        foreach (var item in Items)
-            Destroy(item.gameObject);
-
-        Items.Clear();
+        for (int i = Container1.transform.childCount - 1; i >= 0; i--)
+        {
+            GameObject child = Container1.transform.GetChild(i).gameObject;
+            Destroy(child);
+        }
+        for (int i = Container2.transform.childCount - 1; i >= 0; i--)
+        {
+            GameObject child = Container2.transform.GetChild(i).gameObject;
+            Destroy(child);
+        }
+        for (int i = Container3.transform.childCount - 1; i >= 0; i--)
+        {
+            GameObject child = Container3.transform.GetChild(i).gameObject;
+            Destroy(child);
+        }
     }
 
     private void Setup()
@@ -35,7 +48,6 @@ public class Backpack : MonoBehaviour
             if (itemAdded != null)
             {
                 itemAdded.Setup(item);
-                Items.Add(itemAdded.gameObject);
             }
         }
     }

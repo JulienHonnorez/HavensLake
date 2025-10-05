@@ -45,12 +45,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NameFR: Ponton en bois
-  NameEN: Wooden pontoon
+  NameEN: Wooden dock
   RestoredNameFR: 
   RestoredNameEN: 
   SellValue: 0
   RestoreCost: 25
-  BaseSprite: {fileID: 0}
+  BaseSprite: {fileID: -3694533877916086887, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: 0}
   CanBeRestored: 0
   IsNarrativeElement: 0

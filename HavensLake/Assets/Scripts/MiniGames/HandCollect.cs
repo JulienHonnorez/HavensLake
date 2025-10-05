@@ -52,7 +52,7 @@ public class HandCollect : MonoBehaviour
 
     private IEnumerator SpawnRoutine()
     {
-        while (ItemCount < 5)
+        while (ItemCount < NumberOfItemPerSession)
         {
             TrySpawnOnce();
             ItemCount++;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GoalManager : MonoBehaviour
 {
+    [SerializeField] private TransitionManager TransitionManager;
     [SerializeField] private List<CheckList> Goals = new List<CheckList>();
 
     public void CheckIfGoalReached(Item item)
@@ -21,6 +22,6 @@ public class GoalManager : MonoBehaviour
     private void CheckIfAllGoalReached()
     {
         if (Goals.All(x => x.reached))
-            Debug.Log("Charger niveau suivant");
+            TransitionManager.LoadNextScene();
     }
 }

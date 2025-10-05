@@ -50,7 +50,7 @@ MonoBehaviour:
   RestoredNameEN: 
   SellValue: 0
   RestoreCost: 18
-  BaseSprite: {fileID: 0}
+  BaseSprite: {fileID: -2064859774160998932, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: 0}
   CanBeRestored: 0
   IsNarrativeElement: 0

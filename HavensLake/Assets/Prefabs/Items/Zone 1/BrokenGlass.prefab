@@ -50,8 +50,8 @@ MonoBehaviour:
   RestoredNameEN: Window repaired
   SellValue: 3
   RestoreCost: 12
-  BaseSprite: {fileID: 0}
-  RestoredSprite: {fileID: 0}
+  BaseSprite: {fileID: 4337684191699249041, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
+  RestoredSprite: {fileID: -488721925442295091, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1
   IsNarrativeElement: 0
   NarrativeId: 0

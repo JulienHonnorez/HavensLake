@@ -85,10 +85,13 @@
     <Compile Include="Assets\Scripts\UI\Backpack.cs" />
     <Compile Include="Assets\Scripts\FlyingButter\D2FogsPE.cs" />
     <Compile Include="Assets\Scripts\Data\GoalManager.cs" />
+    <Compile Include="Assets\Scripts\UI\NotifManager.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\Data\MyGameManager.cs" />
     <Compile Include="Assets\Scripts\FlyingButter\FBSmoke.cs" />
+    <Compile Include="Assets\Scripts\UI\TransitionManager.cs" />
     <Compile Include="Assets\Scripts\MiniGames\HandCollect.cs" />
+    <Compile Include="Assets\Scripts\Managers\SoundPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

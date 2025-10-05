@@ -21,7 +21,8 @@ public class ItemSlot : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        computer = GameObject.FindGameObjectWithTag("Computer").GetComponent<Computer>();
+        if (!IsBackpackSlot)
+            computer = GameObject.FindGameObjectWithTag("Computer").GetComponent<Computer>();
 
         if (IsShopSlot)
             Setup(Item);
@@ -30,7 +31,7 @@ public class ItemSlot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (computer == null)
+        if (computer == null && !IsBackpackSlot)
             computer = GameObject.FindGameObjectWithTag("Computer").GetComponent<Computer>();
     }
 

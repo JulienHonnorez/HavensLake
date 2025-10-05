@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MoveManager : MonoBehaviour
 {
+    [SerializeField] private GameObject PauseCanvas;                // 0
     [SerializeField] private GameObject HouseInCanvas;              // 1
     [SerializeField] private GameObject ComputerCanvas;             // 2
     [SerializeField] private GameObject HouseOutCanvas;             // 3
@@ -12,9 +13,13 @@ public class MoveManager : MonoBehaviour
     [SerializeField] private GameObject BackpackCanvas;             // 8
     [SerializeField] private GameObject LakeSideCollectCanvas;      // 9
 
+    [SerializeField] private AudioSource LakeAudio;
+    [SerializeField] private AudioSource NatureAudio;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        PauseCanvas.SetActive(false);
         HouseInCanvas.SetActive(false);
         ComputerCanvas.SetActive(false);
         HouseOutCanvas.SetActive(true);
@@ -24,12 +29,18 @@ public class MoveManager : MonoBehaviour
         LakeCenterCanvas.SetActive(false);
         BackpackCanvas.SetActive(false);
         LakeSideCollectCanvas.SetActive(false);
+
+        LakeAudio.gameObject.SetActive(true);
+        NatureAudio.gameObject.SetActive(true);
     }
 
     public void Navigate(int index)
     {
+        if (index == 0)
+            PauseCanvas.SetActive(!PauseCanvas.activeSelf);
         if (index == 1)
         {
+            PauseCanvas.SetActive(false);
             HouseInCanvas.SetActive(true);
             ComputerCanvas.SetActive(false);
             HouseOutCanvas.SetActive(false);
@@ -39,10 +50,15 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+
+            LakeAudio.gameObject.SetActive(false);
+            NatureAudio.gameObject.SetActive(true);
+            NatureAudio.volume = 0.3f;
         }
         if (index == 2)
         {
-            HouseInCanvas.SetActive(false);
+            PauseCanvas.SetActive(false);
+            HouseInCanvas.SetActive(true);
             ComputerCanvas.SetActive(true);
             HouseOutCanvas.SetActive(false);
             LakeSideCanvas.SetActive(false);
@@ -54,6 +70,7 @@ public class MoveManager : MonoBehaviour
         }
         if (index == 3)
         {
+            PauseCanvas.SetActive(false);
             HouseInCanvas.SetActive(false);
             ComputerCanvas.SetActive(false);
             HouseOutCanvas.SetActive(true);
@@ -63,9 +80,14 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+
+            LakeAudio.gameObject.SetActive(true);
+            NatureAudio.gameObject.SetActive(true);
+            NatureAudio.volume = 1f;
         }
         if (index == 4)
         {
+            PauseCanvas.SetActive(false);
             HouseInCanvas.SetActive(false);
             ComputerCanvas.SetActive(false);
             HouseOutCanvas.SetActive(false);
@@ -78,6 +100,7 @@ public class MoveManager : MonoBehaviour
         }
         if (index == 5)
         {
+            PauseCanvas.SetActive(false);
             HouseInCanvas.SetActive(false);
             ComputerCanvas.SetActive(false);
             HouseOutCanvas.SetActive(false);
@@ -90,6 +113,7 @@ public class MoveManager : MonoBehaviour
         }
         if (index == 6)
         {
+            PauseCanvas.SetActive(false);
             HouseInCanvas.SetActive(false);
             ComputerCanvas.SetActive(false);
             HouseOutCanvas.SetActive(false);
@@ -102,6 +126,7 @@ public class MoveManager : MonoBehaviour
         }
         if (index == 7)
         {
+            PauseCanvas.SetActive(false);
             HouseInCanvas.SetActive(false);
             ComputerCanvas.SetActive(false);
             HouseOutCanvas.SetActive(false);

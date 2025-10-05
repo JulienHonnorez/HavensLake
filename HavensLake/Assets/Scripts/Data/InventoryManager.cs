@@ -12,6 +12,8 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] public List<Item> InventoryItems = new List<Item>();
     [SerializeField] public List<Item> CollectionItems = new List<Item>();
 
+    private SoundPlayer SoundPlayer;
+
     // Singleton
     private static InventoryManager instance;
     public static InventoryManager Instance { get { return instance; } }
@@ -34,11 +36,15 @@ public class InventoryManager : MonoBehaviour
         {
             item.Setup();
             BackpackItems.Add(item);
+
+            GameObject.FindGameObjectWithTag("Notif").GetComponent<NotifManager>().SendNotif(item.BaseSprite);
         }
     }
 
     public void AddItemsToInventory()
     {
+        SoundPlayer = GameObject.FindGameObjectWithTag("SoundPlayer").GetComponent<SoundPlayer>();
+
         InventoryItems.AddRange(BackpackItems);
         InventoryItems = InventoryItems.OrderBy(x => x.GetName()).ToList();
 
@@ -47,17 +53,20 @@ public class InventoryManager : MonoBehaviour
 
     public bool TrySellItem(Guid itemId)
     {
+        SoundPlayer.PlayClick();
         var itemToSell = InventoryItems.FirstOrDefault(x => x.Id == itemId);
 
-        if(itemToSell == null) return false;
+        if (itemToSell == null) return false;
 
         InventoryItems.Remove(itemToSell);
         Money += itemToSell.SellValue;
+        SoundPlayer.PlayCoin();
 
         return true;
     }
     public bool TryRestoreItem(Guid itemId)
     {
+        SoundPlayer.PlayClick();
         var itemToRestore = InventoryItems.FirstOrDefault(x => x.Id == itemId);
 
         if (itemToRestore == null) return false;
@@ -66,6 +75,7 @@ public class InventoryManager : MonoBehaviour
         InventoryItems.Remove(itemToRestore);
         CollectionItems.Add(itemToRestore);
         Money -= itemToRestore.RestoreCost;
+        SoundPlayer.PlayCoin();
 
         GameObject.FindGameObjectWithTag("GoalManager").GetComponent<GoalManager>().CheckIfGoalReached(itemToRestore);
 
@@ -74,9 +84,11 @@ public class InventoryManager : MonoBehaviour
 
     public bool TryBuyItem(Item item)
     {
+        SoundPlayer.PlayClick();
         if (item.RestoreCost > Money) return false;
 
         Money -= item.RestoreCost;
+        SoundPlayer.PlayCoin();
         GameObject.FindGameObjectWithTag("GoalManager").GetComponent<GoalManager>().CheckIfGoalReached(item);
         return true;
     }

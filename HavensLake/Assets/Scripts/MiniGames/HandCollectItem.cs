@@ -6,6 +6,7 @@ public class HandCollectItem : MonoBehaviour
 
     public void TryCollectItem()
     {
+        GameObject.FindGameObjectWithTag("SoundPlayer").GetComponent<SoundPlayer>().PlayHandWater();
         InventoryManager.Instance.TryAddItemToBackpack(Item);
         Destroy(this.gameObject);
     }

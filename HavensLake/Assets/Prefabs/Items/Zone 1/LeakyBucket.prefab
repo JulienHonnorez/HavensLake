@@ -50,8 +50,8 @@ MonoBehaviour:
   RestoredNameEN: Vase
   SellValue: 4
   RestoreCost: 10
-  BaseSprite: {fileID: 0}
-  RestoredSprite: {fileID: 0}
+  BaseSprite: {fileID: -7573354855677281409, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
+  RestoredSprite: {fileID: 1801263428120863714, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1
   IsNarrativeElement: 0
   NarrativeId: 0

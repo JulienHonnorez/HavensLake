@@ -9,6 +9,8 @@ TagManager:
   - SteamManager
   - Computer
   - GoalManager
+  - Notif
+  - SoundPlayer
   layers:
   - Default
   - TransparentFX
