@@ -2562,7 +2562,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 04/10/2025
+  m_text: 05/10/2025
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f793a0f088eee9340b73a0c18b1abc6e, type: 2}
   m_sharedMaterial: {fileID: -7435307819310194757, guid: f793a0f088eee9340b73a0c18b1abc6e, type: 2}
@@ -6624,6 +6624,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 547f6f4c1d73413468777ca188acf239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ComputerCanvas: {fileID: 0}
   TransitionManager: {fileID: 1050283965}
   Goals:
   - {fileID: 1711334107}

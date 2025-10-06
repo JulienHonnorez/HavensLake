@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GoalManager : MonoBehaviour
 {
+    [SerializeField] private GameObject ComputerCanvas;
     [SerializeField] private TransitionManager TransitionManager;
     [SerializeField] private List<CheckList> Goals = new List<CheckList>();
 
@@ -21,6 +23,9 @@ public class GoalManager : MonoBehaviour
 
     private void CheckIfAllGoalReached()
     {
+        if(SceneManager.GetActiveScene().name == "Chapter 4")
+            ComputerCanvas.SetActive(false);
+
         if (Goals.All(x => x.reached))
             TransitionManager.LoadNextScene();
     }
