@@ -48,7 +48,7 @@ MonoBehaviour:
   NameEN: Wooden crate
   RestoredNameFR: Table basse
   RestoredNameEN: Coffee table
-  SellValue: 4
+  SellValue: 6
   RestoreCost: 15
   BaseSprite: {fileID: 2029542551908640097, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: -2821042892349479055, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\FlyingButter\EffectBase.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\FlyingButter\D2FogsNoiseTexPE.cs" />
+    <Compile Include="Assets\Scripts\MiniGames\CenterCollect.cs" />
     <Compile Include="Assets\Scripts\Utils\DontDestroyOnLoad.cs" />
     <Compile Include="Assets\Scripts\Data\GameVersionDisplayer.cs" />
     <Compile Include="Assets\Scripts\Utils\MoveManager.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\Scripts\Data\SettingsLoader.cs" />
     <Compile Include="Assets\Scripts\Data\SettingsManager.cs" />
     <Compile Include="Assets\Scripts\UI\LanguageLoader.cs" />
+    <Compile Include="Assets\Scripts\MiniGames\NetCollect.cs" />
     <Compile Include="Assets\Scripts\UI\Backpack.cs" />
     <Compile Include="Assets\Scripts\FlyingButter\D2FogsPE.cs" />
     <Compile Include="Assets\Scripts\Data\GoalManager.cs" />
@@ -89,8 +91,10 @@
     <Compile Include="Assets\Scripts\UI\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\Data\MyGameManager.cs" />
     <Compile Include="Assets\Scripts\FlyingButter\FBSmoke.cs" />
+    <Compile Include="Assets\Scripts\MiniGames\CanneCollect.cs" />
     <Compile Include="Assets\Scripts\UI\TransitionManager.cs" />
     <Compile Include="Assets\Scripts\MiniGames\HandCollect.cs" />
+    <Compile Include="Assets\Scripts\MiniGames\NetCollectItem.cs" />
     <Compile Include="Assets\Scripts\Managers\SoundPlayer.cs" />
   </ItemGroup>
   <ItemGroup>

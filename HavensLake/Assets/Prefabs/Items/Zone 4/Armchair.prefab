@@ -49,9 +49,9 @@ MonoBehaviour:
   RestoredNameFR: Fauteuil
   RestoredNameEN: Armchair
   SellValue: 28
-  RestoreCost: 45
-  BaseSprite: {fileID: -893012132824976593, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
-  RestoredSprite: {fileID: -3847862398662311954, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
+  RestoreCost: 60
+  BaseSprite: {fileID: -6297800631036545471, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
+  RestoredSprite: {fileID: -851715481033328299, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1
   IsNarrativeElement: 0
   NarrativeId: 0

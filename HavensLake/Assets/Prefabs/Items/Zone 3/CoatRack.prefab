@@ -48,8 +48,8 @@ MonoBehaviour:
   NameEN: Rusty coat rack
   RestoredNameFR: Porte manteau
   RestoredNameEN: Coat rack
-  SellValue: 20
-  RestoreCost: 11
+  SellValue: 18
+  RestoreCost: 27
   BaseSprite: {fileID: -586250976929357127, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: 1623647345179350462, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1

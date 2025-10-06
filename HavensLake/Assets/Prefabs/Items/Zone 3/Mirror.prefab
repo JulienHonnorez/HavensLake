@@ -48,8 +48,8 @@ MonoBehaviour:
   NameEN: Broken mirror
   RestoredNameFR: Miroir
   RestoredNameEN: Mirror
-  SellValue: 21
-  RestoreCost: 15
+  SellValue: 14
+  RestoreCost: 16
   BaseSprite: {fileID: 612596470744354101, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: -4676655390728407469, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1

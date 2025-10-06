@@ -30,15 +30,18 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void TryAddItemToBackpack(Item item)
+    public bool TryAddItemToBackpack(Item item)
     {
-        if (BackpackItems.Count < 15)
-        {
-            item.Setup();
-            BackpackItems.Add(item);
+        if (BackpackItems.Count >= 15)
+            return false;
 
-            GameObject.FindGameObjectWithTag("Notif").GetComponent<NotifManager>().SendNotif(item.BaseSprite);
-        }
+        item.Setup();
+        BackpackItems.Add(item);
+
+        GameObject.FindGameObjectWithTag("Notif").GetComponent<NotifManager>().SendNotif(item.BaseSprite);
+
+        return true;
+
     }
 
     public void AddItemsToInventory()

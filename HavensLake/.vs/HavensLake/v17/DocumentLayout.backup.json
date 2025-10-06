@@ -3,24 +3,72 @@
   "WorkspaceRootPath": "D:\\Projets\\HavensLake\\HavensLake\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|d:\\projets\\havenslake\\havenslake\\assets\\scripts\\managers\\soundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|d:\\projets\\havenslake\\havenslake\\assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\settingsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\utils\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\centercollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\centercollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\managers\\soundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\soundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|d:\\projets\\havenslake\\havenslake\\assets\\scripts\\utils\\movemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\movemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\handcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\handcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\cannecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\cannecollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\ui\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\gameversiondisplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gameversiondisplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\utils\\movemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\movemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\ui\\notifmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\notifmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\netcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\netcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\netcollectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\netcollectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\handcollectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\handcollectitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\minigames\\handcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\minigames\\handcollect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\ui\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,32 +79,8 @@
       "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\backpack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\ui\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\transitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\utils\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\checklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\itemslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\gameversiondisplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gameversiondisplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\constantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\constantmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\goalmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|D:\\Projets\\HavensLake\\HavensLake\\assets\\scripts\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81538D43-8FCF-7FA0-9673-2BD25B28D70A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,48 +90,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "SettingsManager.cs",
+              "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\SettingsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SettingsManager.cs",
+              "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\SettingsManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\SettingsManager.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAMBUwJ0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T12:52:12.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CenterCollect.cs",
+              "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\CenterCollect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGames\\CenterCollect.cs",
+              "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\CenterCollect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGames\\CenterCollect.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAiwFoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:31:56.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CanneCollect.cs",
+              "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\CanneCollect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGames\\CanneCollect.cs",
+              "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\CanneCollect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGames\\CanneCollect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:00:30.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NetCollectItem.cs",
+              "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\NetCollectItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGames\\NetCollectItem.cs",
+              "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\NetCollectItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGames\\NetCollectItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T07:01:40.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NetCollect.cs",
+              "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\NetCollect.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGames\\NetCollect.cs",
+              "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\NetCollect.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGames\\NetCollect.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T06:12:11.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HandCollectItem.cs",
+              "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\HandCollectItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGames\\HandCollectItem.cs",
+              "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\HandCollectItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MiniGames\\HandCollectItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T22:11:37.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "SoundPlayer.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Managers\\SoundPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SoundPlayer.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Managers\\SoundPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\SoundPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvy8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T21:49:16.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T21:49:16.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "HandCollect.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\HandCollect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MiniGames\\HandCollect.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\MiniGames\\HandCollect.cs",
               "RelativeToolTip": "Assets\\Scripts\\MiniGames\\HandCollect.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T19:36:11.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "NotifManager.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\NotifManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\NotifManager.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\NotifManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\NotifManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T19:32:09.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TransitionManager.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\TransitionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\TransitionManager.cs",
@@ -119,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "ConstantManager.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\ConstantManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ConstantManager.cs",
@@ -143,44 +238,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "CheckList.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Utils\\CheckList.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\CheckList.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Utils\\CheckList.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utils\\CheckList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T19:52:47.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "GoalManager.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\GoalManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GoalManager.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\GoalManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Data\\GoalManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T19:49:52.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "MoveManager.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Utils\\MoveManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\MoveManager.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Utils\\MoveManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utils\\MoveManager.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwFUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAAK8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T16:33:49.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T16:33:49.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Computer.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\Computer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Computer.cs",
@@ -192,19 +286,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "InventoryManager.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\InventoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\InventoryManager.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\InventoryManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Data\\InventoryManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCUAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T09:01:07.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "Backpack.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\Backpack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Backpack.cs",
@@ -216,19 +310,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "ItemSlot.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\ItemSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ItemSlot.cs",
               "ToolTip": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\UI\\ItemSlot.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ItemSlot.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwBwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEQAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T08:31:46.755Z"
+              "WhenOpened": "2025-10-04T08:31:46.755Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "Item.cs",
               "DocumentMoniker": "D:\\Projets\\HavensLake\\HavensLake\\Assets\\Scripts\\Data\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\Item.cs",

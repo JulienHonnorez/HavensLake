@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LacBateau_0: -3780832987463866932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -12,6 +12,9 @@ public class MoveManager : MonoBehaviour
     [SerializeField] private GameObject LakeCenterCanvas;           // 7
     [SerializeField] private GameObject BackpackCanvas;             // 8
     [SerializeField] private GameObject LakeSideCollectCanvas;      // 9
+    [SerializeField] private GameObject NetCollectCanvas;           // 10
+    [SerializeField] private GameObject PontoonCollectCanvas;       // 11
+    [SerializeField] private GameObject CenterCollectCanvas;       // 12
 
     [SerializeField] private AudioSource LakeAudio;
     [SerializeField] private AudioSource NatureAudio;
@@ -29,6 +32,9 @@ public class MoveManager : MonoBehaviour
         LakeCenterCanvas.SetActive(false);
         BackpackCanvas.SetActive(false);
         LakeSideCollectCanvas.SetActive(false);
+        NetCollectCanvas.SetActive(false);
+        PontoonCollectCanvas.SetActive(false);
+        CenterCollectCanvas.SetActive(false);
 
         LakeAudio.gameObject.SetActive(true);
         NatureAudio.gameObject.SetActive(true);
@@ -50,6 +56,9 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
 
             LakeAudio.gameObject.SetActive(false);
             NatureAudio.gameObject.SetActive(true);
@@ -67,6 +76,9 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
         }
         if (index == 3)
         {
@@ -80,6 +92,9 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
 
             LakeAudio.gameObject.SetActive(true);
             NatureAudio.gameObject.SetActive(true);
@@ -97,6 +112,9 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
         }
         if (index == 5)
         {
@@ -110,6 +128,9 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
         }
         if (index == 6)
         {
@@ -123,6 +144,9 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(false);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
         }
         if (index == 7)
         {
@@ -136,10 +160,19 @@ public class MoveManager : MonoBehaviour
             LakeCenterCanvas.SetActive(true);
             BackpackCanvas.SetActive(false);
             LakeSideCollectCanvas.SetActive(false);
+            NetCollectCanvas.SetActive(false);
+            PontoonCollectCanvas.SetActive(false);
+            CenterCollectCanvas.SetActive(false);
         }
         if (index == 8)
             BackpackCanvas.SetActive(!BackpackCanvas.activeSelf);
         if (index == 9)
             LakeSideCollectCanvas.SetActive(!LakeSideCollectCanvas.activeSelf);
+        if (index == 10)
+            NetCollectCanvas.SetActive(!NetCollectCanvas.activeSelf);
+        if (index == 11)
+            PontoonCollectCanvas.SetActive(!PontoonCollectCanvas.activeSelf);
+        if (index == 12)
+            CenterCollectCanvas.SetActive(!CenterCollectCanvas.activeSelf);
     }
 }

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LacSidePonton_0: 8722328144935540063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

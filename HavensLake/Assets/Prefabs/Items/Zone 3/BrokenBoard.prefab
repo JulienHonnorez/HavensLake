@@ -49,7 +49,7 @@ MonoBehaviour:
   RestoredNameFR: Tableau
   RestoredNameEN: Painting
   SellValue: 10
-  RestoreCost: 15
+  RestoreCost: 35
   BaseSprite: {fileID: 2049916588613589399, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: 6244358684371955587, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1

@@ -52,6 +52,6 @@ MonoBehaviour:
   RestoreCost: 30
   BaseSprite: {fileID: -9075936618163766259, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: 0}
-  CanBeRestored: 1
+  CanBeRestored: 0
   IsNarrativeElement: 0
   NarrativeId: 0

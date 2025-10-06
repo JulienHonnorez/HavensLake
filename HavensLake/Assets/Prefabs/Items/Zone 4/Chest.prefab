@@ -50,8 +50,8 @@ MonoBehaviour:
   RestoredNameEN: Laundry box
   SellValue: 58
   RestoreCost: 85
-  BaseSprite: {fileID: -893012132824976593, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
-  RestoredSprite: {fileID: -3847862398662311954, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
+  BaseSprite: {fileID: -2360418572804486258, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
+  RestoredSprite: {fileID: -8700347722689439309, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1
   IsNarrativeElement: 0
   NarrativeId: 0

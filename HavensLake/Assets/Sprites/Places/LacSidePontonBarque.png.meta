@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LacSidePontonBarque_0: -3601566543557902648
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

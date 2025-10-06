@@ -64,9 +64,9 @@ public class ItemSlot : MonoBehaviour
         SellButton.SetActive(false);
 
         var label = SettingsManager.Instance.IsGameInFrench() ? "Restaurer" : "Restore";
-        RestoreButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Restaurer ({Item.RestoreCost}$)";
+        RestoreButton.GetComponentInChildren<TextMeshProUGUI>().text = $"{label} ({Item.RestoreCost}$)";
         label = SettingsManager.Instance.IsGameInFrench() ? "Vendre" : "Sell";
-        SellButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Vendre ({Item.SellValue}$)";
+        SellButton.GetComponentInChildren<TextMeshProUGUI>().text = $"{label} ({Item.SellValue}$)";
     }
 
     private void SetupShopSlot()

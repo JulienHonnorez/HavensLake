@@ -9,7 +9,7 @@ public class GoalManager : MonoBehaviour
 
     public void CheckIfGoalReached(Item item)
     {
-        var goal = Goals.FirstOrDefault(x => x.ItemNameFR == item.NameFR);
+        var goal = Goals.FirstOrDefault(x => x.ItemNameFR.Trim() == item.NameFR.Trim());
 
         if (goal == null || goal.reached) return;
 

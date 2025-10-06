@@ -49,7 +49,7 @@ MonoBehaviour:
   RestoredNameFR: "Po\xEAle en fonte"
   RestoredNameEN: Cast iron stove
   SellValue: 35
-  RestoreCost: 55
+  RestoreCost: 165
   BaseSprite: {fileID: -893012132824976593, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   RestoredSprite: {fileID: -3847862398662311954, guid: d605eac939adc184e8ea82aa6ebcc819, type: 3}
   CanBeRestored: 1
